@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <header id="mainHeader">
+    <div>
+      <a class="headerlogo" href="index.html">
+        <img src="images/logo.jpg">
+      </a>
+      <span id="headername">Nina's Coffee Store</span>
+      <input type="search" class="searchbox" placeholder="Search the store" />
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a class="navlink" href="index.html">Home</a></li>
+        <li><a class="navlink" href="blog.html">Blog</a></li>
+        <li><a class="navlink" href="allcoffees.html">Our coffees</a></li>
+        <li><a class="navlink" href="accessories.html">Accessories</a></li>
+        <li><a class="navlink" href="gifts.html">Gifts</a></li>
+        <li><a class="navlink" href="findus.html">Find us</a></li>
+        <li><a class="navlink" href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="coffeedetails">
+    <header class="blockheader">
+      <span>Coffee 1</span>
+    </header>
+    <figure class="productarticlelargefigure">
+      <img id="coffee1" class="productarticlelargeimage" src="images/coffee-large.jpg">
+      <figcaption>Coffee 1</figcaption>
+    </figure>
+    <div class="productarticlecontent">
+      <p class="productarticledescription">Lorem ipsum dolor sit amet, consect</p>
+      <p class="productarticleprice">$10</p>
+    </div>
+  </section>
+
+  <div id="salesCanvasGraph">
+    <canvas id="barChart" height="800" width="750"></canvas>
+  </div>
+
+  <footer>
+    <p>Our address is <address>Tuval 13 Ramat Gan</address></p>
+    <p class="textcontent">All site content is copyright <a class="mainlink" href="#">Nina's Coffee Store</a></p>
+    <p class="smalltext">This page was generated on <time>12:00:00.0</time>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", drawChart, false);
+  </script>
+</body>
+</html>

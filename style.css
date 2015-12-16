@@ -1,0 +1,222 @@
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Verdana;
+}
+
+@font-face{
+	font-family: headerfont;
+	src:url('Exo.otf');
+}
+
+header{
+	font-weight: bold;
+	color: #603813;
+}
+
+.headerlogo{
+	float: left;
+	margin-right: 10px;
+}
+
+.headerlogo > img{
+	height: 48px;
+	width: 60px;
+}
+
+#mainHeader{
+	height: 80px;
+}
+
+.searchbox{
+	float: right;
+	padding: 5px;
+	margin: 10px 10px;
+	width: 200px;
+}
+
+#headername{
+	font-size: 38px;
+	color: #603813;
+	padding: 10px;
+	margin: 8px 0px;
+	font-weight: bold;
+	font-family: headerfont;
+	text-shadow: 5px 5px 5px #5f2c17;
+}
+
+.nav
+{
+	padding-top: 5px;
+	width: 75%;
+}
+
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: -webkit-linear-gradient(left, #603813, #341c05);
+	background: -o-linear-gradient(left, #603813, #341c05);
+	background: linear-gradient(to right, #603813, #341c05);
+	width: 1000px;
+}
+
+.nav ul > li
+{
+	float: left;
+	margin: 3px 10px;
+}
+
+.nav ul > li > a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#welcomeimage{
+	float: left;
+	width: 700px;
+}
+
+#coffeeofthemonth{
+	float: right;
+	width: 300px;
+}
+
+#welcometext{
+	float: left;
+	width: 70%;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+}
+
+#welcometext > header{
+	color: #603813;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+#events{
+	float:right;
+	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#events > header
+{
+	margin-left: 10px;
+	color: 603813;
+	font-size: 15px;
+	margin-bottom: 3px;
+	font-weight: bold; 		
+}
+
+#events > ul{
+	list-style: none;
+}
+
+#events > ul > li{
+	margin-bottom: 3px;
+}
+
+#bestsellers{
+	height: 100%;
+	width: 700px;
+	float: left;
+	margin-bottom: 20px;
+}	
+
+.productarticle {
+	float: left;
+	padding-bottom: 10px; 
+	padding-right: 10px;
+}
+
+.productarticle > figure{
+	margin-left: 0;
+}
+
+.productarticlemoreinfo{
+	font-size: 12px;
+	color: #603813;
+	margin-top: 5px;
+}	
+
+.productarticlethumbnail{
+	border-radius: 10px;
+}
+
+.productarticleprice{
+	font-weight: bold;
+	color: green;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	background: linear-gradient(to right, #603813, #341c05);
+	margin: 20px 0px 20px;
+	padding: 5px;
+}
+
+.smalltext{
+	font-size: 10px;
+}
+
+#imagediv{
+	height: 260px;
+}
+
+.blackheader{
+	padding: 10px 0px;
+}
+
+.backgroundgradiant{
+	background: -webkit-linear-gradient(left, #603813, #341c05);
+	background: -o-linear-gradient(left, #603813, #341c05);
+	background: linear-gradient(to right, #603813, #341c05);
+	color: white;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.coffeebestsellers, .accessoriesbestsellers {
+	float: left;
+	width: 100%;
+}
+
+.addtocartbutton{
+	cursor: pointer;
+	padding: 4px 25 px;
+	background: #603813;		
+	border: 1px solid #381f09;
+
+	border-radius: 5px;	 	
+	box-shadow: 0 0 4px rgba(0,0,0,.75);
+	color: #f3f3f3;
+	font-size: 0.8em;
+	width: 80px;
+}
+
+.addtocartbutton:hover, .addtocartbutton:focus{
+	background-color: #512c0a;	
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+.allcoffees{
+	width: 70%;
+	float: left;
+	margin: 20px; 
+}
+
+label{
+	width: 200px;
+	float:left;
+}
